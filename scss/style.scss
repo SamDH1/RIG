@@ -1,0 +1,31 @@
+$body-bg-color: #ececec;
+$container-bg-color: #FFF;
+$container-shadow: 2px 2px 4px 0 rgba(0,0,0,0.15);
+
+
+body {
+  background-color: $body-bg-color;
+}
+
+#pageContainer {
+  max-width: 700px;
+	background-color: $container-bg-color;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: $container-shadow;
+  
+  button {
+    cursor: pointer;
+  }
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 800;
+  
+  .handle {
+    margin-right: 10px;
+  }
+}

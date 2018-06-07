@@ -1,0 +1,10 @@
+[20-Mar-2018 18:58:18 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/thdfemci/public_html/rig/ajax/removeItemsFromList.php on line 6
+[02-May-2018 09:34:51 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 5
+[02-May-2018 09:34:57 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 5
+[03-May-2018 20:05:34 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10
+[03-May-2018 20:07:15 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10
+[03-May-2018 20:17:11 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10
+[03-May-2018 20:19:37 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10
+[03-May-2018 20:24:00 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10
+[03-May-2018 20:28:55 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10
+[03-May-2018 20:34:10 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/thdfemci/public_html/rig/ajax/addItemsToList.php on line 10

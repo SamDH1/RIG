@@ -1,0 +1,230 @@
+body {
+    background-color: #ffffff;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+/* Product Sans Font */
+@font-face { font-family: Product Sans; src: url('Product Sans Regular.ttf'); }
+
+@font-face { font-family: Product Sans; font-weight: bold;  src: url('Product Sans Bold.ttf'); }
+
+
+#pageContainer {
+    max-width: 1100px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+#pageContainer button {
+    cursor: pointer;
+}
+
+
+#todoList .handle {
+    margin-right: 11px;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+
+.hero-container {
+    padding-top: 60px;
+    height: 100%;
+    background-color: white;
+}
+
+.hero-spacer {
+    height: 30px;
+    width: 100%;
+    background-color: #3d3c3d;
+}
+
+.spacer{
+    height: 64px;
+}
+
+.carousel-1 {
+    background-image: url()
+}
+
+/* hero image on home page */
+.hero-image {
+    /*background-image: url("demo8.jpg"); */
+    /* image from https://www.specializedconceptstore.co.uk/product/11667/2018-demo-8-i-alloy/ */
+    height: 50%;
+    background-color: white;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+/* text on the hero image */
+.hero-text {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    /*transform: translate(-50%, -50%);*/
+    color: #9E9E9E;
+}
+
+.rblack {
+    color: #3d3c3d;
+}
+
+.rblue {
+    color: #1ea7aa;
+}
+
+.rgreend {
+    color: #86a791;
+}
+
+.rgreenl {
+    color: #7dc169;
+}
+
+.rgrey {
+    color: #f1f1f1;
+}
+
+.rblackbg {
+    background-color: #3d3c3d;
+}
+
+.rbluebg {
+    background-color: #1ea7aa;
+}
+
+.rgreendbg {
+    background-color: #86a791;
+}
+
+.rgreenlbg {
+    background-color: #7dc169;
+}
+
+.rgreybg {
+    background-color: #f1f1f1;
+}
+.cimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+    max-width: none;
+}
+.title {
+    color: #3d3c3d;
+    font-family: Product Sans;
+}
+
+/*Applying the new font here*/
+h1, h2 , h3 , h4 , h5 , p , a {
+    font-family: Product Sans;
+}
+
+a {
+    color: #7dc169;
+}
+
+.profileImage{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.rigImage {
+    width: 100%;
+    display: block;
+    max-height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
+}
+
+.topTitle {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.rigCards {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #86a791;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #86a791;
+}
+
+.cardSelect {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.cardSelect:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + div{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + div{ /* (RADIO CHECKED) IMAGE STYLES */
+    background-color: rgb(134,167,145);
+    color: #f1f1f1;
+    
+}
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
