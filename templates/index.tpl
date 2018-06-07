@@ -47,22 +47,22 @@
         </div>
 
 
-
-        <div class="card-deck" style="margin-top: 30px">
+<div id="pageContainer" class="container-fluid">
+        <div class="card-deck" style="margin-top: 30px;">
             <div class="card" style="margin-bottom: 30px">
-                <img class="card-img-top" src="img/spartan-carbon-red.png" alt="Card image cap">
+                <img class="card-img-top" src="img/login.png" alt="Login Setup">
                 <div class="card-body"> Login or sign up for your free RIG account </div>
             </div>
             <div class="card" style="margin-bottom: 30px">
-                <img class="card-img-top" src="img/patrol-carbon.png" alt="Card image cap">
+                <img class="card-img-top" src="img/tool.png" alt="Rig build">
                 <div class="card-body"> Select your desired frame that we have in our library and build your perfect rig </div>
             </div>
             <div class="card" style="margin-bottom: 30px">
-                <img class="card-img-top" src="img/meta-am-v4-yellow.png" alt="Card image cap">
+                <img class="card-img-top" src="img/built.png" alt="Saving">
                 <div class="card-body"> Once you're complete, you'll have peace in mind knowing that it all fits and works together, and you can save the build to view at a later date </div>
             </div>
         </div>
 
-
+</div>
     </body>
 </html>

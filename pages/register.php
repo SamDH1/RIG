@@ -2,7 +2,7 @@
 
 if(isset($_POST['email']) || isset($_POST['password'])){
     if(!$_POST['email'] || !$_POST['password'] || !$_POST['firstName'] || !$_POST['lastName']){
-        $error = "Please enter an email, password, and full name!";
+        $error = "Please enter an email and password";
     }
     
     if($_POST['password'] != $_POST['confirmPassword']){
@@ -105,8 +105,8 @@ if(isset($_POST['email']) || isset($_POST['password'])){
             </div>
             <div class="form-grpup">
                 <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <button type="submit" id="register-submit" tabindex="4" class="form-control btn btn-register">Register</button>
+                    <div class="col-sm" >
+                        <button type="submit" id="register-submit" tabindex="4" style="background-color: #7dc169; color: #f1f1f1" class="form-control btn btn-register">Register</button>
                     </div>
                 </div>
             </div>

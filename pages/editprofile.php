@@ -98,9 +98,9 @@
     			<input type="text" class="form-control" id="name" name="name" value="<?php echo $userProfile['user_forename']; ?>">
     		</div>
     		<div class="form-group">
-    			<label for="profile_image">Profile Photo</label>
+    			<label for="profile_image">Photo of your Bike</label>
     			<input type="file" name="profile_image" id="profile_image">
-    			<p class="help-block">Upload a photo of yourself for your profile.</p>
+    			<p class="help-block">Upload a photo of your bike for your profile.</p>
     		</div>
     		<div class="form-group">
     			<label for="gender">Gender</label>

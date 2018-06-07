@@ -5,7 +5,7 @@
         <p>{$sub}</p>
     </div>
     <div id="pageContainer" class="container-fluid">
-        <h3></h3>
+        <h3>You Have a Plan?</h3>
         <p>Yup! We love building bikes. It's a great way to understand how a it all works, and you get to put in exactly what you want from the bike. Perhaps you want to get shorter travel suspension to climb better, but you want that dream frame that doesn't come with that kind of setup... Or maybe you just want to swap out that drivetrain from your current rig, but have no idea of what will fit.<br><br><b>This is what we wanna help out with.</b></p>
         <div class="spacer"></div>
         <h3>What Do You Do?</h3>

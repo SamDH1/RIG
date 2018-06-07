@@ -8,9 +8,9 @@
         
         <div class="col-2">
             <h5>Site Navigation</h5>
-            <a href="../pages/home.php">Home</a><br>
-            <a href="../pages/build.php">Build</a><br>
-            <a href="../pages/about.php">About</a>
+            <a href="index.php?p=home">Home</a><br>
+            <a href="index.php?p=rig">Build</a><br>
+            <a href="index.php?p=about">About</a>
         </div>
         <div class="col-2">
             <h5>Site Disclaimer</h5>
@@ -23,25 +23,6 @@
         
             <p></p>
         </div>
-        
-        <h3>My Google Maps Demo</h3>
-        <div id="map"></div>
-        <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFgD5ise7ILW-ZQoXsWKRcwtn0-48AlKs&callback=initMap">
-    </script>
     </div>
 </div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.js"></script>

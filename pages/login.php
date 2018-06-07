@@ -53,7 +53,7 @@ if(isset($_POST['email']) || isset($_POST['password'])){
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" name="password" placeholder="password">
             </div>
-            <button type="submit" tabindex="4" class="form-control btn btn-register">Login</button>
+            <button type="submit" tabindex="4" class="form-control btn btn-register" style="background-color: #7dc169; color: #f1f1f1">Login</button>
         </form>
     </div>
 </div>

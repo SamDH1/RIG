@@ -65,22 +65,22 @@ if($_POST['name']){
 
             if ($row['user_favorite_quote'] < ''){
 
-                echo '<p>Favourite Quote: You have no favourite quote!</p>';
+                echo '<p>Riding Disicipline: You have no favourite quote!</p>';
             } else 
             {
 
-                echo '<p>Favourite Quote: '.$row['user_favorite_quote'].'</p>';
+                echo '<p>Riding Disicipline: '.$row['user_hobbies'].'</p>';
             }
 
             echo '<h3>My RIG</h3>';
 
             if ($row['user_profile_image'] < ''){
 
-                echo '<p>You have not uploaded your RIG yet, can you can upload a new pucture of your current bike on your <ahref="index.php?p=editprofile">Edit Profile</a> page!</p>';
+                echo '<p>You have not uploaded your RIG yet, can you can upload a new picture of your current bike on your <ahref="index.php?p=editprofile">Edit Profile</a> page!</p>';
             } else 
             {
 
-                echo '<img class="profileImage" style="max-width: 400px; max-height: 400px;" src="./user_images/' .$row['user_profile_image'].'"/>';
+                echo '<img class="bikeImage" alt="bike image" style="max-width: 400px; max-height: 400px;" src="./user_images/' .$row['user_profile_image'].'"/>';
             }
 
         } 
@@ -89,11 +89,12 @@ if($_POST['name']){
 
         <div class="spacer"></div>
         <h3>Below are your previously built bikes</h3>
+        <p>If your new bike doesn't show, reload the page</p>
         
 
 
 
-        <?php
+        <!-- <?php
         $query = "SELECT bike_img.image FROM bike_img INNER JOIN bike_builds ON bike_img.rig_id=bike_builds.rig_id";
         $result = $DBH->prepare($query);
         $result->bindParam(':userid', $_SESSION['userData']['user_id']);
@@ -101,7 +102,7 @@ if($_POST['name']){
 
         while($row = $result->fetch(PDO::FETCH_ASSOC)) {
             echo '<img src=img/'.$row['image'].' style="max-width: 400px ; max-height: 400px;">';}
-        ?>
+        ?> -->
 
         
         <?php
@@ -116,7 +117,7 @@ if($_POST['name']){
             <div class="card-body">
                 <div class="row">
                     <p id="rigid" hidden>'.$row['rig_id'].'</p>
-                    <div class="col-2 d-none d-sm-none d-md-block"><img src=img/spartan-carbon-red.png style="max-width: 100px ; max-height: 100px;"></div>
+                    <div class="col-2 d-none d-sm-none d-md-block"><img src=img/tr500.jpg style="max-width: 100px ; max-height: 100px;"></div>
                     <div class="col-10">
                     <h4 class="card-title">'.$row['rig_name'].'</h4>
                     <h6 class="card-subtitle mb-2 text-muted">'.$row['bike_id'].'</h6>

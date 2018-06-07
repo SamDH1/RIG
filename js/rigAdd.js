@@ -49,7 +49,7 @@ $(document).ready(function() {
 
         //If we're successfull!
         request.done(function (){
-            alert ("Your RIG is saved!");
+            alert ("Ensure you entered a name and all items!");
         });
 
 

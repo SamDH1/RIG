@@ -29,3 +29,26 @@
 [04-May-2018 13:53:25 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/thdfemci/public_html/rig/pages/rig-build.php on line 129
 [04-May-2018 13:57:49 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/thdfemci/public_html/rig/pages/rig-build.php on line 56
 [04-May-2018 13:58:09 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/thdfemci/public_html/rig/pages/rig-build.php on line 56
+[06-May-2018 15:29:56 America/New_York] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/thdfemci/public_html/rig/pages/rig-build.php on line 401
+[06-May-2018 15:29:58 America/New_York] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/thdfemci/public_html/rig/pages/rig-build.php on line 401
+[06-May-2018 15:29:59 America/New_York] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/thdfemci/public_html/rig/pages/rig-build.php on line 401
+[06-May-2018 15:31:26 America/New_York] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/thdfemci/public_html/rig/pages/rig-build.php on line 401
+[06-May-2018 15:31:27 America/New_York] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/thdfemci/public_html/rig/pages/rig-build.php on line 401
+[07-May-2018 11:12:27 America/New_York] PHP Parse error:  syntax error, unexpected '$smarty' (T_VARIABLE) in /home/thdfemci/public_html/rig/pages/about.php on line 10
+[07-May-2018 12:09:23 America/New_York] PHP Warning:  require_once(pages/viewprofile1.php): failed to open stream: No such file or directory in /home/thdfemci/public_html/rig/index.php on line 7
+[07-May-2018 12:09:23 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'pages/viewprofile1.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thdfemci/public_html/rig/index.php on line 7
+[07-May-2018 12:42:22 America/New_York] PHP Warning:  require_once(pages/viewprofile.php.php): failed to open stream: No such file or directory in /home/thdfemci/public_html/rig/index.php on line 7
+[07-May-2018 12:42:22 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'pages/viewprofile.php.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thdfemci/public_html/rig/index.php on line 7
+[07-May-2018 12:48:31 America/New_York] PHP Parse error:  syntax error, unexpected 'user_profile_image' (T_STRING), expecting ',' or ';' in /home/thdfemci/public_html/rig/pages/dashboard.php on line 38
+[08-May-2018 18:27:20 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/thdfemci/public_html/rig/pages/rig-build.php on line 468
+[08-May-2018 19:00:43 America/New_York] PHP Warning:  require_once(pages/addItemsToRig.php): failed to open stream: No such file or directory in /home/thdfemci/public_html/rig/index.php on line 7
+[08-May-2018 19:00:43 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'pages/addItemsToRig.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thdfemci/public_html/rig/index.php on line 7
+[08-May-2018 19:00:48 America/New_York] PHP Warning:  require_once(pages/addItemsToRig.php.php): failed to open stream: No such file or directory in /home/thdfemci/public_html/rig/index.php on line 7
+[08-May-2018 19:00:48 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'pages/addItemsToRig.php.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thdfemci/public_html/rig/index.php on line 7
+[08-May-2018 19:33:06 America/New_York] PHP Warning:  require_once(pages/addItemsToRig.php.php): failed to open stream: No such file or directory in /home/thdfemci/public_html/rig/index.php on line 7
+[08-May-2018 19:33:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'pages/addItemsToRig.php.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thdfemci/public_html/rig/index.php on line 7
+[08-May-2018 21:52:13 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/thdfemci/public_html/rig/pages/dashboard.php on line 124
+[09-May-2018 18:24:00 America/New_York] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:/home/thdfemci/public_html/rig/templates/about.tpl"  on line 18 "var uluru = {lat: -25.363, lng: 131.044};"  - Unexpected ": ", expected one of: "}" <-- 
+  thrown in /home/thdfemci/public_html/rig/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 18
+[09-May-2018 18:30:55 America/New_York] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "file:/home/thdfemci/public_html/rig/templates/about.tpl"  on line 18 "var uluru = {lat: -25.363, lng: 131.044};"  - Unexpected ": ", expected one of: "}" <-- 
+  thrown in /home/thdfemci/public_html/rig/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 18

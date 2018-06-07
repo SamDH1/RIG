@@ -13,6 +13,9 @@ body, html {
 @font-face { font-family: Product Sans; font-weight: bold;  src: url('Product Sans Bold.ttf'); }
 
 
+
+
+
 #pageContainer {
     max-width: 1100px;
     background-color: #f1f1f1;
@@ -140,21 +143,25 @@ a {
     color: #7dc169;
 }
 
-.profileImage{
-    width: 150px;
+.bikeImage{
+    width: 350px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
 }
 
 .rigImage {
-    width: 100%;
+    max-width: 100%;
     display: block;
     max-height: 320px;
     margin-left: auto;
     margin-right: auto;
     border-bottom-right-radius: calc(.25rem - 1px);
     border-bottom-left-radius: calc(.25rem - 1px);
+}
+
+.button {
+    background-color: #7dc169;
 }
 
 .topTitle {

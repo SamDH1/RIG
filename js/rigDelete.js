@@ -9,6 +9,10 @@ $(document).ready(function() {
    			data: { rdelete : rdelete}
    		});
 
+   		// If we're successfull!
+   		//request.done(function (response, textStatus, jqXHR){
+   	
+   		//});
 	});
 
 
